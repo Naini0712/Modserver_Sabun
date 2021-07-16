@@ -1,0 +1,24 @@
+import mods.multiblockstages.IEMultiBlockStages;
+IEMultiBlockStages.addStage("A", "IE:CokeOven");
+IEMultiBlockStages.addStage("A", "IE:AlloySmelter");
+IEMultiBlockStages.addStage("A", "IE:BlastFurnace");
+IEMultiBlockStages.addStage("A", "IE:BlastFurnaceAdvanced");
+IEMultiBlockStages.addStage("A", "IE:MetalPress");
+IEMultiBlockStages.addStage("A", "IE:Crusher");
+IEMultiBlockStages.addStage("A", "IE:SheetmetalTank");
+IEMultiBlockStages.addStage("A", "IE:Silo");
+IEMultiBlockStages.addStage("A", "IE:Assembler");
+IEMultiBlockStages.addStage("A", "IE:AutoWorkbench");
+IEMultiBlockStages.addStage("A", "IE:BottlingMachine");
+IEMultiBlockStages.addStage("A2b", "IE:Squeezer");
+IEMultiBlockStages.addStage("A2b", "IE:Fermenter");
+IEMultiBlockStages.addStage("A2b", "IE:Refinery");
+IEMultiBlockStages.addStage("A2b", "IE:DieselGenerator");
+IEMultiBlockStages.addStage("A", "IE:Excavator");
+IEMultiBlockStages.addStage("A", "IE:BucketWheel");
+IEMultiBlockStages.addStage("A", "IE:ArcFurnace");
+IEMultiBlockStages.addStage("A", "IE:Lightningrod");
+IEMultiBlockStages.addStage("A", "IE:Mixer");
+IEMultiBlockStages.addStage("A", "IE:Feedthrough");
+
+mods.recipestages.Recipes.setRecipeStageByMod("A", "immersiveengineering");

@@ -1,0 +1,34 @@
+mods.ItemStages.addItemStage("Forbidden", <dcs_climate:dcs_food_essential_oil:3>);
+mods.ItemStages.addItemStage("Forbidden", <dcs_climate:dcs_liquor_bottle:8>);
+mods.ItemStages.addItemStage("Forbidden", <dcs_climate:dcs_liquor_bottle:16>);
+mods.ItemStages.addItemStage("Forbidden", <dcs_climate:dcs_liquor_bottle:13>);
+mods.ItemStages.addItemStage("Forbidden", <twilightforest:ore_magnet>);
+mods.ItemStages.addItemStage("Forbidden", <twilightforest:twilight_sapling:7>);
+mods.ItemStages.addItemStage("Forbidden", <thermalexpansion:dynamo:4>.withTag({}));
+mods.ItemStages.addItemStage("Forbidden", <thermalexpansion:dynamo:5>.withTag({}));
+mods.ItemStages.addItemStage("Forbidden", <gvcr2:gvcr2_gun_la16u>.withTag({}));
+mods.ItemStages.addItemStage("Forbidden", <touhou_little_maid:marisa_broom>);
+mods.ItemStages.addItemStage("Forbidden", <vehicle:vehicle_crate>.withTag({BlockEntityTag: {vehicle: "vehicle:sports_plane"}}));
+mods.ItemStages.addItemStage("Forbidden", <vehicle:vehicle_crate>.withTag({BlockEntityTag: {vehicle: "vehicle:sofacopter"}}));
+mods.ItemStages.addItemStage("Forbidden", <vehicle:vehicle_crate>.withTag({BlockEntityTag: {vehicle: "vehicle:bath"}}));
+mods.ItemStages.addItemStage("Forbidden", <enderpay:blank_banknote>);
+mods.ItemStages.addItemStage("Forbidden", <ic2:filled_tin_can>);
+
+<dcs_climate:dcs_food_essential_oil:3>.addTooltip(format.red("このアイテムは運営により使用が制限されています。"));
+<dcs_climate:dcs_liquor_bottle:8>.addTooltip(format.red("このアイテムは運営により使用が制限されています。"));
+<dcs_climate:dcs_liquor_bottle:16>.addTooltip(format.red("このアイテムは運営により使用が制限されています。"));
+<dcs_climate:dcs_liquor_bottle:13>.addTooltip(format.red("このアイテムは運営により使用が制限されています。"));
+<twilightforest:ore_magnet>.addTooltip(format.red("このアイテムは運営により使用が制限されています。"));
+<twilightforest:twilight_sapling:7>.addTooltip(format.red("このアイテムは運営により使用が制限されています。"));
+<thermalexpansion:dynamo:4>.withTag({}).addTooltip(format.red("このアイテムは運営により使用が制限されています。"));
+<thermalexpansion:dynamo:5>.withTag({}).addTooltip(format.red("このアイテムは運営により使用が制限されています。"));
+<gvcr2:gvcr2_gun_la16u>.withTag({}).addTooltip(format.red("このアイテムは運営により使用が制限されています。"));
+<touhou_little_maid:marisa_broom>.addTooltip(format.red("このアイテムは運営により使用が制限されています。"));
+<vehicle:vehicle_crate>.withTag({BlockEntityTag: {vehicle: "vehicle:sports_plane"}}).addTooltip(format.red("このアイテムは運営により使用が制限されています。"));
+<vehicle:vehicle_crate>.withTag({BlockEntityTag: {vehicle: "vehicle:sofacopter"}}).addTooltip(format.red("このアイテムは運営により使用が制限されています。"));
+<vehicle:vehicle_crate>.withTag({BlockEntityTag: {vehicle: "vehicle:bath"}}).addTooltip(format.red("このアイテムは運営により使用が制限されています。"));
+<simplyjetpacks:itemjetpack:24>.withTag({}).addTooltip(format.red("このアイテムは運営により使用が制限されています。"));
+<botania:flighttiara:*>.addTooltip(format.red("このアイテムは運営により使用が制限されています。"));
+<ic2:filled_tin_can>.addTooltip(format.red("このアイテムは運営により使用が制限されています。"));
+
+mods.orestages.OreStages.addReplacement("muscarium", <contenttweaker:muscarium>, <minecraft:stone>);

@@ -1,0 +1,11 @@
+mods.initialinventory.InvHandler.addStartingItem(<item:minecraft:apple>);
+mods.initialinventory.InvHandler.addStartingItem(<harvestcraft:hardenedleatherhelmitem>);
+mods.initialinventory.InvHandler.addStartingItem(<harvestcraft:hardenedleatherchestitem>);
+mods.initialinventory.InvHandler.addStartingItem(<harvestcraft:hardenedleatherleggingsitem>);
+mods.initialinventory.InvHandler.addStartingItem(<harvestcraft:hardenedleatherbootsitem>);
+mods.initialinventory.InvHandler.addStartingItem(<harvestcraft:bltitem> * 2);
+mods.initialinventory.InvHandler.addStartingItem(<harvestcraft:friesitem> * 2);
+mods.initialinventory.InvHandler.addStartingItem(<harvestcraft:blueberrypieitem> * 2);
+mods.initialinventory.InvHandler.addStartingItem(<harvestcraft:extremechiliitem> * 2);
+mods.initialinventory.InvHandler.addStartingItem(<harvestcraft:energydrinkitem> * 2);
+mods.initialinventory.InvHandler.addStartingItem(<harvestcraft:espressoitem> * 2);
